@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+#logo{
+    margin-left: 56px ;
+    margin-top: 52px;
+}
+header{
+    color:aliceblue;
+    
+}
+#menu-top{
+    background-image: url('../img/banner.svg');
+    padding: 0 0 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#title-menu-top{
+    margin-left: 172px ;
+    margin-top: 100px;
+}
+#title-menu-inferior{
+    margin-top: 32px;
+    margin-left: 172px ;
+}
+#div-icons{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+.icons{
+    margin: 50px 0px 50px 100px;
+    padding: 0 20px;
+}
+.text-info{
+    display: flex;
+    align-items: center;
+
+}
+#div-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#div-text-video{
+    margin: 50px 90px 50px 25px;
+}
+
+#title-video{
+    color: #247BA0;
+   
+    
+}
+#text-video{
+    color: #383838;
+}
+#video{
+    margin: 50px 25px 50px 100px ;
+}
+#section-carrossel{
+    background-color:#247BA0 ;
+    padding: 100px;
+}
+#title-carrossel{
+    color:#EAECE5;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    
+   
+}
+.cards{
+    margin-left: 50px;
+}
+#seta-esquerda{
+    display: none;
+}
+#samanta{
+    display: none
+}
+.seta{
+    margin-top: 30%;
+    cursor: pointer;
+}
+#seta-esquerda:hover{
+    transform:translate(-7px) ;
+    transition: 0.5s;
+}
+#seta-direita:hover{
+    transform:translate(7px) ;
+    transition: 0.5s;
+}
+#div-form{
+    text-align: center;  
+    
+}
+#div-form h1{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+input{
+    display: block;
+    margin: 20px auto 25px auto;
+    width: 413px;  
+    height: 40px;
+    background-color: #EAECE5;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #125a79;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #0c2b3888;
+    transition: 0.3s;
+}
